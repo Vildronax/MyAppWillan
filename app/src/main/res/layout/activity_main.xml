@@ -10,10 +10,9 @@
     android:weightSum="1">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="  Welcome to Jungle "
+        android:text="        Bienvenidos "
         android:textSize="40sp"
         android:layout_weight="0.24" />
 
@@ -28,31 +27,30 @@
         app:srcCompat="@mipmap/ic_launcher" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etUsuario"
         android:layout_width="165dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Nombre de Usuario" />
+        android:hint="Nombre de Usuario" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/etClave"
         android:layout_width="165dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Contraseña" />
+        android:hint="Contraseña" />
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnEnvioDatos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
-        android:text="Iniciar" />
+        android:layout_marginTop="120dp"
+        android:text="Obtener Datos" />
 
 
 </LinearLayout>
-
